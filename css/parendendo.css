@@ -1,0 +1,26 @@
+aside {
+    width: 300px; /* Define a largura do elemento <aside> como 300 pixels */
+    background-color: #f4f4f4; /* Define a cor de fundo do <aside> como cinza claro (#f4f4f4) */
+    padding: 20px; /* Adiciona um espaço interno de 20 pixels ao redor do conteúdo dentro do <aside> */
+    margin-left: 20px; /* Adiciona uma margem de 20 pixels à esquerda do <aside>, criando um espaço entre ele e outros elementos à esquerda */
+}
+
+.figurecaption {
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; /*O valor none permite,informalmente dizendo, que voce desative a propriedade do elemento*/
+    align-items: center;
+    padding: 16px;
+}
+
+header img {
+    width: 150px;/*largura*/
+    height: 150px;/*Altura*/
+    border-radius: 50%;
+    border: 5px solid green;
+}

@@ -1,0 +1,42 @@
+body {
+    color: aquamarine;/*Colocando a cor do meu corpo*/
+    background-color: rgb(55, 24, 24);/*cor de fundo*/
+    font-family: Arial, Helvetica, sans-serif;/*Formatação da escrita*/
+}
+
+ul {
+    display: flex;/*Flex container, a partir daí podemos manipular todos os elementos filhos desse flex container*/
+    justify-content: space-between;/*Justificar o contente*/
+    list-style-type: none;/*Tipos de estilos*/
+    align-items: center;/*Alinhas os itens*/
+    padding: 16px;/*Padding define uma a distancia entre o conteudo de um elemento e suas bordas*/
+}
+
+a {
+    color: white;
+    text-decoration: none;/*O valor none permite, informalmente dizendo, que voce desative a propriedade do elemento*/
+}
+
+header img {
+    width: 150px;/*Largura*/
+    height: 150px;/*Altura*/
+    border-radius: 50%;/*Arredondamento nas pontas da imagem*/
+    border: 5px solid green;/*Formatação da borda total*/
+}
+
+.center { /*o udo do . é para o acesso de classe*/
+    text-align: center;
+}
+
+footer img { /*O elemento html (<footer>) representa o rodapé*/
+    width: 40px;
+    height: 40px;
+}
+
+.h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#h1 {
+    font-family: cursive;
+}

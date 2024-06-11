@@ -1,0 +1,88 @@
+/* style.css */
+
+body {
+    display: flex; /* Usar flexbox para organizar os elementos */
+    flex-direction: column; /* Dispor os elementos verticalmente */
+    align-items: center; /* Centralizar os elementos horizontalmente */
+    margin: 0; /* Remover margens padrão */
+    padding: 0; /* Remover padding padrão */
+    font-family: Arial, sans-serif; /* Definir a fonte padrão */
+    height: 100vh; /* Definir altura do viewport */
+}
+
+header {
+    display: flex; /* Usar flexbox no header */
+    flex-direction: column; /* Dispor o conteúdo do header em uma coluna */
+    align-items: center; /* Centralizar o conteúdo do header */
+    background-color: #4CAF50; /* Cor de fundo do header */
+    color: white; /* Cor do texto do header */
+    padding: 20px; /* Espaçamento interno do header */
+    width: 100%; /* Ocupar toda a largura do body */
+    text-align: center; /* Centralizar o texto no header */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionar sombra ao header */
+}
+
+nav {
+    width: 100%; /* Ocupar toda a largura do body */
+    background-color: #333; /* Cor de fundo do nav */
+}
+
+nav ul {
+    list-style-type: none; /* Remover estilo padrão da lista */
+    margin: 0; /* Remover margem da lista */
+    padding: 0; /* Remover padding da lista */
+    overflow-y: auto; /* Habilitar rolagem vertical */
+    background-color: #333; /* Cor de fundo da lista */
+    text-align: center; /* Centralizar os itens da lista */
+}
+
+nav ul li {
+    display: inline; /* Mostrar os itens da lista em linha */
+}
+
+nav ul li a {
+    display: inline-block; /* Mostrar os links como blocos em linha */
+    color: white; /* Cor do texto dos links */
+    text-align: center; /* Centralizar o texto dos links */
+    padding: 14px 16px; /* Espaçamento interno dos links */
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+nav ul li a:hover {
+    background-color: #111; /* Cor de fundo ao passar o mouse sobre os links */
+}
+
+aside {
+    background-color: #f4f4f4; /* Cor de fundo do aside */
+    padding: 20px; /* Espaçamento interno do aside */
+    margin: 20px 0; /* Espaçamento externo do aside */
+    width: 80%; /* Definir a largura do aside */
+    max-width: 600px; /* Definir a largura máxima do aside */
+}
+
+h1, h6, p {
+    width: 80%; /* Definir a largura dos elementos h1, h6, e p */
+    max-width: 600px; /* Definir a largura máxima dos elementos h1, h6, e p */
+    margin: 20px 0; /* Espaçamento externo dos elementos h1, h6, e p */
+}
+
+
+video {
+    border-radius: 5px;
+    border-color: aquamarine;
+    border-style: hidden;
+}
+
+.lista {
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%; /* Definir a largura do aside */
+    max-width: 300px; /* Definir a largura máxima do aside */
+    text-align: center;
+}
+
+div {
+    border: 10px solid black;
+    
+}
